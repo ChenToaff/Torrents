@@ -1,6 +1,7 @@
 # Torrents
 
 A React interface for downloading movies via torrent.
+<img src="Readme Files/Torrents.gif">
 
 # Api's Used:
 
