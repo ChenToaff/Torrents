@@ -1,6 +1,8 @@
 # Torrents
 
 A React interface for downloading movies via torrent.
+<br>
+With a self built [`dialog/modal`](client/src/css/modal.css).
 <img src="Readme Files/Torrents.gif">
 
 # Api's Used:
