@@ -16,7 +16,7 @@ cd server
 pip install -r requirements.txt
 ```
 
-### Change settings in [`settings.py`](server/settings.py):
+### Create: server/settings.py
 
 ```python
 # apiKey for OMDB
