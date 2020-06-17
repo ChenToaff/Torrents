@@ -1,0 +1,44 @@
+body {
+  margin: auto;
+  background-color: #f8f9fa;
+  color: #303030;
+  font-family: "-apple-system,BlinkMacSystemFont,Segoe UI,Fira Sans,Helvetica Neue,Arial,sans-serif";
+}
+.Torrents-Top {
+  text-align: center;
+  font-size: calc(40px);
+  font-weight: 400;
+}
+.Torrents-Top > h1 {
+  margin: auto;
+}
+.Torrents-Top > input {
+  width: calc(60% - 9px);
+  height: 30px;
+  border-radius: 6px;
+  min-width: 300px;
+  max-width: 500px;
+}
+.Torrents-Main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Torrents-MovieImg {
+  padding: 5px;
+}
+.Torrents-MovieImg > img {
+  border-radius: 5px;
+  border: 2px solid #303030;
+  height: 300px;
+  width: 210px;
+}
+.Torrents-MovieName {
+  display: block;
+  width: 210px;
+  word-wrap: break-word;
+  font-size: calc(20px);
+  height: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+}

@@ -1,0 +1,67 @@
+.modal {
+  position: fixed;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 90%;
+}
+.modal-content {
+  padding: 5px;
+  margin: auto;
+  border-radius: 12px;
+  border: 3px solid #303030;
+  width: 80%;
+  height: 90%;
+  font-size: 130%;
+  font-family: "bookman", sans-serif;
+  background-color: #f8f9fa;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.modal-poster {
+  height: 300px;
+  width: 210px;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-bottom: 1px solid #303030;
+}
+.modal-plot {
+  padding-left: 10px;
+  float: right;
+  overflow: auto;
+  width: calc(100% - 224px);
+  height: 300px;
+  border-bottom: 1px solid #303030;
+}
+.modal-magnets {
+  width: 100%;
+  float: left;
+  padding-bottom: 10px;
+}
+.modal-magnets-links {
+  color: #303030;
+  font-size: 20px;
+  font-weight: bold;
+}
+.modal-magnets-seeders {
+  padding-right: 20px;
+  float: right;
+  color: #303030;
+  font-size: 20px;
+  font-weight: bold;
+}
+.modal-close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+  padding-right: 3px;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  color: #303030;
+  text-decoration: none;
+  cursor: pointer;
+}
